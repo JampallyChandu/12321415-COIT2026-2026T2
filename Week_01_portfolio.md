@@ -47,13 +47,6 @@ The virtual machine was configured with:
 
 
 
-
-images/GNS3-Intro-12321415-ipaddress.png
-
-images/GNS3-Intro-12321415-network.png
-
-
-images/GNS3-Intro-12321415.gns3project
 ### 3. Starting the GNS3 Server
 
 The CQU GNS3 virtual machine was started successfully in VirtualBox.
@@ -124,11 +117,16 @@ The project topology also included annotations showing:
 
 A rectangle annotation was also used to organise the Linux Host and its networking information.
 
+
+
+
+![Host1 Creation](images/Host1.png).
+
 ### 2. Network Configuration
 
 The following IPv4 configuration was selected for Host1:
 
-**Setting**	      ------               **Value**<br>
+**Setting**	      ------               **Value**
 Host	            ------                 Host1<br>
 Interface	        ------                 eth0<br>
 IPv4 Address  	  ------                 10.10.1.1<br>
@@ -143,7 +141,6 @@ The resulting network was a simple single-host network.
 ### 3. GNS3 Network Topology
 
 The completed GNS3 topology is shown below.
-
 
 
 
@@ -202,7 +199,14 @@ The output showed the eth0 interface with the configured IPv4 address:
 
 This confirmed that the static IPv4 configuration had been successfully applied.
 
-Evidence
+
+
+![GNS3-Network](images/GNS3-Intro-12321415-network.png).
+
+
+
+
+
 
 
 
@@ -215,6 +219,12 @@ The screenshot confirms that:
 - The configured IP address matches the address shown in the GNS3 topology<br>
 
 Then IP Forwarding is also verified.
+
+![GNS3-ipaddress](images/GNS3-Intro-12321415-ipaddress.png).
+
+![GNS3-project](images/GNS3-Intro-12321415.gns3project).
+
+
 
 
 ### 7. Commands Used
