@@ -44,7 +44,7 @@ The virtual machine was configured with:
 
 ![GitHub Screenshot Demo](./images/week5.png).
 
-
+images/GNS-Virtualbox.png
 ### 3. Starting the GNS3 Server
 
 The CQU GNS3 virtual machine was started successfully in VirtualBox.
