@@ -27,7 +27,7 @@ The software used was:
 - Google Chrome for accessing the GNS3 Web UI
 - GitHub for storing portfolio files and practical
 
-  images/virtualbox.png
+
   ![Virtualbox]( images/virtualbox.png).
 
 VirtualBox was used to run the CQU-provided GNS3 virtual machine.
