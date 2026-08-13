@@ -35,12 +35,12 @@ The CQU GNS3 virtual machine was successfully imported into Oracle VirtualBox.
 
 The virtual machine was configured with:
 
-Host-only network adapter
-NAT network adapter
-GNS3 server environment
-Evidence
+- Host-only network adapter
+- NAT network adapter
+- GNS3 server environment
 
-Add your VirtualBox screenshot below.
+![GitHub Screenshot Demo](./images/week5.png).
+
 
 ### 3. Starting the GNS3 Server
 
