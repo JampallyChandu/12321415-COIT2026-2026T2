@@ -257,3 +257,14 @@ I also learned the purpose of IP forwarding and verified that it was disabled us
 **sysctl net.ipv4.ip_forward**
 
 This activity provided practical experience with GNS3, Linux networking, IPv4 configuration, VirtualBox and documenting technical work using GitHub and Markdown.
+
+### 9. Reflection
+
+In this Week 01 tutorial, I gained practical experience in setting up and using the main tools required for COIT20261. I checked the installation of VirtualBox and GNS3, started the CQU-provided GNS3 virtual machine, and accessed the GNS3 Web UI through a browser. I also created a private GitHub repository for the unit and became more familiar with using Markdown to document practical activities and evidence.
+
+The main practical task helped me understand the basic operation of GNS3. I created a new project, added a Linux Host, included text and rectangle annotations, and configured the `eth0` interface with the static IP address `10.10.1.1/24`. I then started the host, opened the web console, and used the `ip address show` command to confirm that the IP address had been configured correctly. I also checked that IP forwarding was disabled using `sysctl net.ipv4.ip_forward`.
+
+During the activity, I encountered a network configuration error because some sample text and multiple interface settings were active in the configuration file. I corrected the `/etc/network/interfaces` settings and successfully verified the required IP address. This troubleshooting process improved my understanding of Linux network configuration and showed me the importance of checking configuration files carefully before starting a device.
+
+Overall, this tutorial gave me a good introduction to VirtualBox, GNS3, Linux networking, GitHub, and Markdown documentation. I now have a better understanding of how to create a simple virtual network, configure an IP address, verify network settings using Linux commands, and present practical evidence clearly in a GitHub portfolio.
+
