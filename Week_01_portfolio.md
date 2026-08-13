@@ -50,6 +50,8 @@ images/GNS3-Web-UI.png
 
 images/GNS3-Intro-12321415-ipaddress.png
 
+images/GNS3-Intro-12321415-network.png
+
 ### 3. Starting the GNS3 Server
 
 The CQU GNS3 virtual machine was started successfully in VirtualBox.
