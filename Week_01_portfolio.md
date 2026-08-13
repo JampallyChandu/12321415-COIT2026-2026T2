@@ -42,16 +42,18 @@ The virtual machine was configured with:
 - NAT network adapter
 - GNS3 server environment
 
-![GitHub Screenshot Demo](./images/week5.png).
+![GNS VirtualBox](images/GNS-Virtualbox.png).
 
-images/GNS-Virtualbox.png
 
-images/GNS3-Web-UI.png
+
+
 
 images/GNS3-Intro-12321415-ipaddress.png
 
 images/GNS3-Intro-12321415-network.png
 
+
+images/GNS3-Intro-12321415.gns3project
 ### 3. Starting the GNS3 Server
 
 The CQU GNS3 virtual machine was started successfully in VirtualBox.
@@ -64,9 +66,9 @@ The GNS3 Web UI was available at:
 
 The GNS3 server was then accessed through Google Chrome.
 
-Evidence
 
-Add your GNS3 server/VirtualBox running screenshot below.
+![GNS Web-UI](images/GNS3-Web-UI.png).
+
 
 ### 4. GitHub Repository
 
