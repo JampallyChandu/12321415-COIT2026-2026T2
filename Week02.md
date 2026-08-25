@@ -5,7 +5,7 @@
 The aim of this tutorial was to learn different methods of assigning static IP addresses to Linux hosts in GNS3. I also learned how to use the `ping` command to test connectivity, packet loss and round-trip time between devices.
 
 ---
-
+images/setting-IP-12321415.gns3project
 # Task 1 – Setting Static IP Addresses
 
 ## 1. Creating the Network
