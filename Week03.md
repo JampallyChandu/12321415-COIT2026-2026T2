@@ -16,6 +16,8 @@ The IP addresses used were:
 * Host3: `10.10.2.3/24`
 * Host4: `10.10.2.4/24`
 
+  ![Netcat Client and Server](images/Net cat-12321415.png)
+
 ---
 
 # Task 1 – Simple Application Communication with Netcat
