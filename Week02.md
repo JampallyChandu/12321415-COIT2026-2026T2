@@ -14,6 +14,9 @@ I created a new GNS3 project named:
 
 `Setting-IP-<studentid>`
 
+
+![Setting-IP-12321415](images/setting-IP-12321415.gns3project)
+
 The network contained:
 
 * Four Linux hosts
@@ -30,7 +33,7 @@ The subnet mask was:
 
 ### Network Topology
 
-![Week 02 Network Topology](Setting-IP-<studentid>-network.png)
+![Week 02 Network Topology](images/Setting-IP-12321415-network.png)
 
 The IP addressing plan used for the four hosts was:
 
@@ -68,7 +71,7 @@ The output confirmed that Host1 had the address:
 
 ### Host1 IP Address
 
-![Host1 IP Address](Setting-IP-<studentid>-host1.png)
+![Host1 IP Address](images/Setting-IP-12321415-hostA.ping.png)
 
 ---
 
@@ -97,7 +100,7 @@ The output showed:
 
 ### Host2 IP Address
 
-![Host2 IP Address](Setting-IP-<studentid>-host2.png)
+![Host2 IP Address](images/setting-IP-12321415-host2.png)
 
 ---
 
@@ -139,7 +142,7 @@ The output confirmed:
 
 ### Host3 IP Address
 
-![Host3 IP Address](Setting-IP-<studentid>-host3.png)
+![Host3 IP Address](images/Setting-IP-12321415-host3.png)
 
 This method stores the configuration in the network configuration file, so the address can remain available after restarting the host.
 
@@ -167,7 +170,7 @@ The output showed:
 
 ### Host4 IP Address
 
-![Host4 IP Address](Setting-IP-<studentid>-host4.png)
+![Host4 IP Address](images/setting-IP-12321415-host4.png)
 
 This method applies the IP address immediately. However, the configuration is temporary and will be lost if the host is restarted.
 
@@ -211,7 +214,7 @@ The average round-trip time was approximately:
 
 ### Successful Ping Test
 
-![Basic Ping Test](Ping-Basics-<studentid>-simple.png)
+![Basic Ping Test](images/Ping-Basics-12321415-simple.png)
 
 This result confirmed that Host1 and Host2 were successfully connected and could communicate through the Ethernet switch.
 
@@ -240,7 +243,7 @@ The result showed:
 
 ### Ping to an Incorrect IP Address
 
-![Wrong IP Ping Test](Ping-Basics-<studentid>-error.png)
+![Wrong IP Ping Test](images/Ping-Basics-12321415-error.png)
 
 This showed that the destination device was not available on the network.
 
@@ -333,7 +336,7 @@ The result showed:
 
 ### Ping with Different Options
 
-![Ping Options](Ping-Basics-<studentid>-options.png)
+![Ping Options](images/Ping-Basics-12321415-Options.png)
 
 This showed that the ping command can be modified depending on the type of network test required.
 
