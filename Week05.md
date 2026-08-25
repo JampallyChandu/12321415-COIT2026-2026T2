@@ -20,6 +20,9 @@ I created a new GNS3 project named:
 View-Routes-12321415
 ```
 
+
+![View Routes.gns3project](images/View-Routes-12321415.gns3project)
+
 I added the following devices:
 
 - Three Linux Hosts
@@ -251,6 +254,8 @@ net.ipv4.ip_forward = 0
 
 This confirmed that Host1 was correctly configured as an end host.
 
+
+![View Routes Ping](images/View-Routes-12321415-Host1-routes.png)
 ---
 
 ## Step 9 – Checking Host1 Routing Table
@@ -317,6 +322,8 @@ The result was:
 net.ipv4.ip_forward = 0
 ```
 
+
+![View Routes Ping](images/View-Routes-12321415-Host2-routes.png)
 ---
 
 ## Step 11 – Checking Host3
@@ -360,6 +367,8 @@ net.ipv4.ip_forward = 0
 
 This confirmed that Host3 was also configured as a normal end host.
 
+
+![View Routes Ping](images/View-Routes-12321415-Host3-routes.png.png)
 ---
 
 ## Step 12 – Checking Router1
@@ -391,6 +400,8 @@ net.ipv4.ip_forward = 1
 
 This confirmed that Router1 was able to forward packets between the two networks.
 
+
+![View Routes ](images/View-Routes-12321415-Router1-routes.png.png)
 ---
 
 ## Step 13 – Viewing Router1 Routing Table
@@ -526,7 +537,7 @@ View-Routes-12321415-network.png
 
 ### Network Screenshot
 
-![View Routes Network](View-Routes-12321415-network.png)
+![View Routes Network](images/View-Routes-12321415-network.png)
 
 ---
 
@@ -554,7 +565,7 @@ View-Routes-12321415-ping.png
 
 ### Ping Evidence
 
-![View Routes Ping](View-Routes-12321415-ping.png)
+![View Routes Ping](images/View-routes-12321415-Ping.png)
 
 ---
 
@@ -860,17 +871,34 @@ to identify the destination networks and next nodes used by each router.
 
 I recorded the information in the following table.
 
+# OSPF Routing Summary
+
 | Router | Destination | Next Node |
 |---|---|---|
-| FRR1 | `<enter destination from FRR1>` | `<enter next node>` |
-| FRR1 | `<enter destination from FRR1>` | `<enter next node>` |
-| FRR2 | `<enter destination from FRR2>` | `<enter next node>` |
-| FRR2 | `<enter destination from FRR2>` | `<enter next node>` |
-| FRR3 | `<enter destination from FRR3>` | `<enter next node>` |
-| FRR3 | `<enter destination from FRR3>` | `<enter next node>` |
-| FRR4 | `<enter destination from FRR4>` | `<enter next node>` |
-| FRR4 | `<enter destination from FRR4>` | `<enter next node>` |
-
+| FRR1 | `10.10.1.0/24` | Directly connected |
+| FRR1 | `10.10.2.0/24` | Directly connected |
+| FRR1 | `10.10.3.0/24` | Directly connected |
+| FRR1 | `10.10.4.0/24` | `10.10.2.2` |
+| FRR1 | `10.10.5.0/24` | `10.10.3.3` |
+| FRR1 | `10.10.6.0/24` | `10.10.2.2` or `10.10.3.3` |
+| FRR2 | `10.10.1.0/24` | `10.10.2.1` |
+| FRR2 | `10.10.2.0/24` | Directly connected |
+| FRR2 | `10.10.3.0/24` | `10.10.2.1` |
+| FRR2 | `10.10.4.0/24` | Directly connected |
+| FRR2 | `10.10.5.0/24` | `10.10.4.4` |
+| FRR2 | `10.10.6.0/24` | `10.10.4.4` |
+| FRR3 | `10.10.1.0/24` | `10.10.3.1` |
+| FRR3 | `10.10.2.0/24` | `10.10.3.1` |
+| FRR3 | `10.10.3.0/24` | Directly connected |
+| FRR3 | `10.10.4.0/24` | `10.10.5.4` |
+| FRR3 | `10.10.5.0/24` | Directly connected |
+| FRR3 | `10.10.6.0/24` | `10.10.5.4` |
+| FRR4 | `10.10.1.0/24` | `10.10.4.2` or `10.10.5.3` |
+| FRR4 | `10.10.2.0/24` | `10.10.4.2` |
+| FRR4 | `10.10.3.0/24` | `10.10.5.3` |
+| FRR4 | `10.10.4.0/24` | Directly connected |
+| FRR4 | `10.10.5.0/24` | Directly connected |
+| FRR4 | `10.10.6.0/24` | Directly connected |
 The values in this table were taken from the actual routing information shown in the GNS3 project.
 
 ---
