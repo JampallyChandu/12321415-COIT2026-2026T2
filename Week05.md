@@ -600,6 +600,10 @@ For Task 2, I used the project provided with the tutorial:
 OSPF-Basics-Template.gns3project
 ```
 
+
+![OSPF Basics.gns3project](images/OSPF-Basics-12321415.gns3project)
+
+
 I imported the project into GNS3.
 
 I then created my own copy named:
@@ -607,6 +611,10 @@ I then created my own copy named:
 ```text
 OSPF-Basics-12321415
 ```
+
+
+![OSPF Basics](images/OSPF-Basics-12321415.png)
+
 
 The IP addresses and OSPF settings were already configured in the provided project.
 
@@ -723,7 +731,7 @@ OSPF-Basics-12321415-FRR1-neighbors.png
 
 ### FRR1 Neighbour Evidence
 
-![FRR1 OSPF Neighbours](OSPF-Basics-12321415-FRR1-neighbors.png)
+![FRR1 OSPF Neighbours](images/OSPF-Basics-12321415-FRR1-neighbors.png)
 
 ---
 
@@ -791,7 +799,7 @@ OSPF-Basics-12321415-FRR1-routes.png
 
 ### FRR1 Routing Table
 
-![FRR1 Routing Table](OSPF-Basics-12321415-FRR1-routes.png)
+![FRR1 Routing Table](images/OSPF-Basics-12321415-FRR1-routes.png)
 
 ---
 
@@ -849,7 +857,7 @@ OSPF-Basics-12321415-FRR4-routes.png
 
 ### FRR4 Routing Table
 
-![FRR4 Routing Table](OSPF-Basics-12321415-FRR4-routes.png)
+![FRR4 Routing Table](images/OSPF-Basics-12321415-FRR4-routes.png)
 
 ---
 
@@ -982,7 +990,7 @@ OSPF-Basics-12321415-traceroute-before.png
 
 ### Traceroute Before Link Failure
 
-![Traceroute Before Link Failure](OSPF-Basics-12321415-traceroute-before.png)
+![Traceroute Before Link Failure](images/OSPF-Basics-12321415-traceroute-before.png)
 
 ---
 
@@ -1080,7 +1088,7 @@ OSPF-Basics-12321415-traceroute-after.png
 
 ### Traceroute After Link Failure
 
-![Traceroute After Link Failure](OSPF-Basics-12321415-traceroute-after.png)
+![Traceroute After Link Failure](images/OSPF-Basics-12321415-traceroute-after.png)
 
 ---
 
@@ -1109,7 +1117,7 @@ OSPF-Basics-12321415-network.png
 
 ### OSPF Network Screenshot
 
-![OSPF Network](OSPF-Basics-12321415-network.png)
+![OSPF Network](images/OSPF-Basics-12321415-network.png)
 
 ---
 
