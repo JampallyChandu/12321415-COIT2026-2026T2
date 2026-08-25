@@ -58,6 +58,8 @@ I created a new GNS3 project named:
 HTTPClient-GUI-12321415
 ```
 
+![HTTPClient-GUI-12321415.gns3project](images/HTTPClient-GUI-12321415.gns3project)
+
 I added the following devices:
 
 * One Firefox Host
@@ -332,7 +334,7 @@ HTTPClient-GUI-12321415-network.png
 
 ### Network Screenshot
 
-![HTTP Client GUI Network](HTTPClient-GUI-12321415-network.png)
+![HTTP Client GUI Network](images/HTTPClient-GUI-12321415-network.png)
 
 ---
 
@@ -406,6 +408,12 @@ HTTPClient-GUI-12321415-subnetB.pcap
 
 ---
 
+
+![HTTP Client GUI Pcap.file](images/HTTPClient-GUI-12321415-subnetB.pcap)
+
+
+
+
 # Task 2 – HTTP Client with Command Line Interface
 
 ## Step 1 – Creating the CLI Project
@@ -417,6 +425,8 @@ I named the new project:
 ```text
 HTTPClient-CLI-12321415
 ```
+
+![HTTP Client CLI.gns3 project](images/HTTPClient-CLI-12321415 (1).gns3project)
 
 This allowed me to keep the Task 1 project unchanged.
 
@@ -636,7 +646,7 @@ HTTPClient-CLI-12321415-network.png
 
 ### CLI Network Screenshot
 
-![HTTP Client CLI Network](HTTPClient-CLI-12321415-network.png)
+![HTTP Client CLI Network](images/HTTPClient-CLI-12321415-network.png)
 
 ---
 
@@ -698,7 +708,7 @@ The screenshot showing the successful `wget` command was saved as:
 HTTPClient-CLI-12321415-wget.png
 ```
 
-![wget Output](HTTPClient-CLI-12321415-wget.png)
+![wget Output](images/HTTPClient-CLI-12321415-wget.png.png)
 
 ---
 
@@ -718,7 +728,9 @@ The Task 2 capture file was:
 HTTPClient-CLI-12321415-subnetB.pcap
 ```
 
----
+
+![HTTPClient-CLI.pcap.file](images/HTTPClient-CLI-12321415-subnetB.pcap)
+
 
 ## Step 13 – Using curl
 
@@ -750,7 +762,7 @@ The screenshot showing the successful `curl` command was saved as:
 HTTPClient-CLI-12321415-curl.png
 ```
 
-![curl Output](HTTPClient-CLI-12321415-curl.png)
+![curl Output](images/HTTPClient-CLI-12321415-curl.png)
 
 ---
 
