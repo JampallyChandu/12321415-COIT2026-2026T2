@@ -431,7 +431,7 @@ I named the new project:
 HTTPClient-CLI-12321415
 ```
 
-![HTTP Client CLI.gns3 project](images/HTTPClient-CLI-12321415 (1).gns3project)
+![HTTP Client CLI.gns3 project](images/HTTPClient-CLI-12321415.gns3project)
 
 This allowed me to keep the Task 1 project unchanged.
 
