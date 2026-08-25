@@ -118,6 +118,12 @@ The screenshot included:
 
 ![Netcat Client and Server](images/Netcat-Basics-12321415-client-server.png)
 
+
+![Netcat Client and Server](images/host2-net-cat.png)
+
+
+
+
 The screenshot was saved as:
 
 ```text
@@ -325,9 +331,14 @@ The capture file was then available locally for checking in Wireshark.
 
 The final files produced for Week 03 were:
 
+
+![Netcat gns3 project](images/NetCat-12321415.gns3project)
+
+
 ```text
 Netcat-Basics-<studentid>-client-server.png
 Capture-Basics-<studentid>-ping-netcat.pcap
+NetCat-12321415.gns3project
 ```
 
 The first file provides evidence of the Netcat client/server communication.
