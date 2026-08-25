@@ -320,6 +320,7 @@ I initially could not open it using the GNS3 web console, so I used TightVNC Vie
 
 I connected to the VNC address shown by GNS3 and successfully opened the Firefox Host desktop.
 
+
 ---
 
 ## Step 14 – Taking the GUI Network Screenshot
@@ -371,6 +372,10 @@ http://10.10.3.10/
 ```
 
 The Networkers' Toolkit webpage loaded successfully.
+
+
+![Firefox Host](images/http-gui.png)
+
 
 This confirmed that HTTP communication worked from the Firefox Host in Subnet A to the Linux Server in Subnet C.
 
