@@ -16,7 +16,7 @@ The IP addresses used were:
 * Host3: `10.10.2.3/24`
 * Host4: `10.10.2.4/24`
 
-  ![Netcat Client and Server](images/Net cat-12321415.png)
+  ![Netcat Client and Server](images/Netcat-12321415.png)
 
 ---
 
@@ -116,7 +116,7 @@ The screenshot included:
 * My student ID
 * Messages displayed on both hosts
 
-![Netcat Client and Server](Netcat-Basics-<studentid>-client-server.png)
+![Netcat Client and Server](images/Netcat-Basics-12321415-client-server.png)
 
 The screenshot was saved as:
 
@@ -166,10 +166,12 @@ I right-clicked directly on the link and selected:
 
 The capture was started on the Ethernet link between Host1 and Switch1.
 
+![Netcat Client and Server](images/Netcat-12321415-start-capture.png)
+
 I saved the capture using the required filename:
 
 ```text
-Capture-Basics-<studentid>-ping-netcat.pcap
+NetCat-<studentid>-start-Capture.png
 ```
 
 ---
@@ -243,13 +245,26 @@ I right-clicked the same link between Host1 and Switch1 and selected:
 
 This completed the packet capture.
 
+![Netcat Client and Server](images/Netcat-12321415-stop-capture.png)
+
+
+
 The required file was:
 
 ```text
-Capture-Basics-<studentid>-ping-netcat.pcap
+NetCat-<studentid>-start-Capture.png
+```
 ```
 
+
+
+Capture-Basics-<studentid>-ping-netcat.pcap
+```
 ---
+
+![Netcat capture.pcap](images/Capture-Basics-12321415-ping-netcat.pcap)
+
+
 
 # Transferring the Capture File to Windows
 
